@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import LoginView from "@/views/LoginView.vue";
 import RegisterView from "@/views/RegisterView.vue";
 import ProdutosView from "@/views/ProdutosView.vue";
+import PedidoView from "@/views/PedidoView.vue";
 
 const routes = [
   { path: "/", redirect: "/produtos", meta: { title: "Produtos" } },
@@ -22,6 +23,12 @@ const routes = [
     name: "Produtos",
     component: ProdutosView,
     meta: { requiresAuth: true, title: "Produtos" },
+  },
+  {
+    path: "/pedido",
+    name: "Pedido",
+    component: PedidoView,
+    meta: { requiresAuth: false, title: "Pedido" },
   },
 ];
 
