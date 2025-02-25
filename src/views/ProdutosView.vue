@@ -142,7 +142,7 @@ export default {
             }
           );
 
-          this.selectedProduto = response.data; // Agora inclui a imagemUrl
+          this.selectedProduto = response.data;
         } catch (error) {
           console.error("Erro ao buscar detalhes do produto:", error);
           Swal.fire({
