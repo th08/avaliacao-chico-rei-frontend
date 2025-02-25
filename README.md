@@ -1,24 +1,41 @@
-# front-end
+# Projeto Frontend - Questão 10 do Teste Técnico (Laravel + Vue)
 
-## Project setup
-```
-npm install
-```
+Este repositório contém a implementação do frontend desenvolvida para a **Questão 10 e 12** do teste técnico. O projeto utiliza as ferramentas e tecnologias mais recentes para atender aos requisitos propostos.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+---
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Ferramentas Utilizadas
 
-### Lints and fixes files
-```
-npm run lint
-```
+- **Vue 3**
+- **Vue Router**
+- **Bootstrap 5**
+- **VueMask**  
+  **SweetAlert**
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+---
+
+## Instalação e Configuração
+
+Após realizado a instalação do backend no outro repositório em https://github.com/th08/avaliacao-chico-rei-backend,baixe o repositório, acesse o diretório e execute os seguintes comandos:
+
+1.  **Instalar as dependências do npm:**
+
+    ```bash
+    npm install
+    ```
+
+2.  **Após a instalação dos pacotes, startar o servidor:**
+
+    ```bash
+        npm run serve
+    ```
+
+---
+
+## Considerações
+
+Após buildar, a aplicação estará disponível em localhost:8080
+
+Realize o cadastro e utilize o crud (Questão 10)
+
+A questão 12, não é necessário o login, e encontra-se na rota /pedido
