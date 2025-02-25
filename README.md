@@ -16,7 +16,7 @@ Este repositório contém a implementação do frontend desenvolvida para a **Qu
 
 ## Instalação e Configuração
 
-Após realizado a instalação do backend no outro repositório em https://github.com/th08/avaliacao-chico-rei-backend,baixe o repositório, acesse o diretório e execute os seguintes comandos:
+Após realizado a instalação do backend no outro repositório em https://github.com/th08/avaliacao-chico-rei-backend baixe o repositório, acesse o diretório e execute os seguintes comandos:
 
 1.  **Instalar as dependências do npm:**
 
@@ -27,7 +27,7 @@ Após realizado a instalação do backend no outro repositório em https://githu
 2.  **Após a instalação dos pacotes, startar o servidor:**
 
     ```bash
-        npm run serve
+    npm run serve
     ```
 
 ---
